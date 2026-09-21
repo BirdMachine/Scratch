@@ -12,7 +12,25 @@ This is the first attempt to stop displaying material swatches and make the mate
 
 It is intentionally tuned for the renderer we observed in Firefox Android desktop mode: the silhouette is bold, medium-frequency material cues are exaggerated, highlights are chunky enough to survive downsampling, while microtexture remains available when zoomed.
 
-**New question:** can material boundaries make a flat SVG feel assembled rather than illustrated?
+---
+
+# 🌈 SHELF 0.5 — RGB LIGHT TRAPPED IN CLEAR THINGS
+
+### Edge injection / light-pipe glass
+<p align="center"><img src="./assets/materials/rgb-edge-glass.svg" width="100%"></p>
+
+The useful illusion here is **not coloring the transparent body very much at all**. Saturation lives at the boundary, then bloom leaks inward. A second inner reflection and a few suspended defects imply that light has entered the material and is bouncing around under total-ish internal reflection.
+
+This one deliberately uses no SVG background. In dark GitHub the pane should feel like luminous smoked glass; in light GitHub it should become a clearer acrylic/light-pipe object. Same SVG, different optical room.
+
+### Luminous laminate / stacked clear panes
+<p align="center"><img src="./assets/materials/rgb-glass-stack.svg" width="100%"></p>
+
+Three transparent panes overlap with slightly different rotations and edge illumination. There is no real parallax, but overlap, shadows, doubled boundaries and displaced reflections provide enough depth evidence that the stack should read as several physical layers.
+
+> **RGB light does not fill the glass — it haunts the edges.**
+
+This feels especially promising for README chrome: headers, fake acrylic tabs, illuminated dividers, navigation panes and whole transparent control surfaces that borrow GitHub's page color as their substrate.
 
 ---
 
@@ -40,15 +58,15 @@ Displaced silhouette + translucent radial volume + internal reflection + contact
 
 ### 05 — Dichroic Glass + Opal Fire
 <p align="center"><img src="./assets/materials/dichroic-opal.svg" width="100%"></p>
-The dichroic pane treats spectral color as an angle cue: a hard-edged transparent-ish slab whose color changes aggressively across its face. Beside it, the opal uses cloudy procedural structure with tiny saturated inclusions acting as **spectral fire**. One says *coated optical material*; the other says *light trapped inside a mineral*.
+The dichroic pane treats spectral color as an angle cue: a hard-edged transparent-ish slab whose color changes aggressively across its face. Beside it, the opal uses cloudy procedural structure with tiny saturated inclusions acting as **spectral fire**.
 
 ### 06 — Satin + Velvet
 <p align="center"><img src="./assets/materials/textiles.svg" width="100%"></p>
-These are an especially useful pair because their geometry can be almost identical while their light response is opposite-ish. Satin wants a long directional traveling highlight. Velvet wants deep light absorption with tiny fibers catching grazing illumination. **Same pigment ≠ same material. Light behavior is the identity.**
+Satin wants a long directional traveling highlight. Velvet wants deep light absorption with tiny fibers catching grazing illumination. **Same pigment ≠ same material. Light behavior is the identity.**
 
 ### 07 — Translucent Resin + Mercury Glass
 <p align="center"><img src="./assets/materials/resin-mercury.svg" width="100%"></p>
-The resin has visible objects suspended *inside* its volume: bubbles, colored inclusions, little geometric debris. Mercury glass goes the opposite direction: mirrored bands are dirtied with procedural mottling.
+The resin has visible objects suspended *inside* its volume. Mercury glass goes the opposite direction: mirrored bands are dirtied with procedural mottling.
 
 ### 08 — Soap Film + Pearlescent Automotive Paint
 <p align="center"><img src="./assets/materials/bubble-pearl.svg" width="100%"></p>
@@ -69,7 +87,7 @@ BASE ALBEDO / SPECTRAL COLOR
        ↓
 MACRO LIGHTING GRADIENT
        ↓
-SURFACE NORMAL FAKE (turbulence / displacement)
+SURFACE NORMAL FAKE
        ↓
 SPECULAR / DIFFUSE RESPONSE
        ↓
@@ -88,20 +106,20 @@ THE HUMAN VISUAL SYSTEM DOES THE REST
 
 ## 11 — Next Research Problems
 
-The composite object suggests the next frontier: material *interactions*, not merely materials.
+The screenshots now give us a useful empirical target: effects must survive GitHub, browser SVG handling, responsive scaling and phone-desktop-mode downsampling.
 
-- water droplets refracting the graphics underneath them
-- scratches that cross from metal into glass differently
-- true frosted glass with recognizable-but-diffuse silhouettes behind it
-- procedural mother-of-pearl / abalone laminated into controls
-- thresholded procedural opal fire
+- RGB edge-lit **frosted** glass: light trapped in a roughened boundary
+- water droplets that distort/recolor illuminated edges beneath them
+- transparent etched lettering that catches only edge light
+- procedural mother-of-pearl / abalone laminated into clear controls
+- glass thickness via doubled/refracted silhouettes
+- colored caustics apparently cast from glass onto adjacent metal
 - CD/DVD radial diffraction and embossed security foil
-- fingerprints, dust, edge wear and age
+- fingerprints, dust, scratches and edge wear
 - fake subsurface scattering for wax/jade/milky plastic
-- caustic light projected from glass onto adjacent metal
-- chrome physically transitioning into gel
-- a complete fake product photograph with a transparent page background
-- **slice the composite into invisible clickable regions and turn the material object itself into navigation** 😈
+- a complete fake product photograph whose environment is GitHub itself
+- a transparent illuminated README HUD assembled from multiple separate SVG assets
+- **slice the composite into invisible clickable regions and turn the physical controls into navigation** 😈
 
 ## 12 — The Rule
 
