@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+<defs><linearGradient id="bar"><stop stop-color="#ff79dc"/><stop offset="1" stop-color="#7d5cff"/></linearGradient><filter id="shadow"><feDropShadow dx="8" dy="10" stdDeviation="0" flood-color="#00e5ff" flood-opacity=".75"/></filter></defs>
+<g filter="url(#shadow)"><rect x="20" y="20" width="710" height="365" rx="10" fill="#fff8ff" stroke="#170025" stroke-width="5"/><rect x="20" y="20" width="710" height="54" rx="10" fill="url(#bar)"/><rect x="20" y="63" width="710" height="11" fill="url(#bar)"/>
+<text x="45" y="56" font-family="monospace" font-size="22" font-weight="bold" fill="#170025">README.EXE — definitely normal software</text>
+<g stroke="#170025" stroke-width="3"><rect x="626" y="34" width="24" height="24" fill="#f8ff5a"/><rect x="658" y="34" width="24" height="24" fill="#60fff0"/><rect x="690" y="34" width="24" height="24" fill="#ff4aa8"/></g>
+<text x="57" y="128" font-family="monospace" font-size="19" fill="#2c0043">C:\\BIRD&gt; run README --unsafe --sparkles=max</text>
+<text x="57" y="172" font-family="monospace" font-size="18" fill="#800080">loading taste.dll ............ NOT FOUND</text>
+<text x="57" y="211" font-family="monospace" font-size="18" fill="#006c68">loading bird.dll ............. 100%</text>
+<text x="57" y="250" font-family="monospace" font-size="18" fill="#c70068">injecting glitter ............ 100%</text>
+<rect x="56" y="286" width="620" height="58" rx="7" fill="#160023"/><text x="366" y="322" text-anchor="middle" font-family="monospace" font-size="19" fill="#6ffff0">SUCCESS: markdown has escaped containment ▌</text></g>
+</svg>
