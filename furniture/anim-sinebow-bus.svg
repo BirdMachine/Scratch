@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="90" viewBox="0 0 700 90">
+<defs><linearGradient id="r" x1="0" x2="1"><stop stop-color="#ff3aad"/><stop offset=".18" stop-color="#ff6847"/><stop offset=".35" stop-color="#ffd83d"/><stop offset=".52" stop-color="#62f56e"/><stop offset=".68" stop-color="#36e8ee"/><stop offset=".84" stop-color="#4787ff"/><stop offset="1" stop-color="#a44cff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<path d="M18 45H90L120 24H580L610 45H682" fill="none" stroke="#1b292e" stroke-width="20"/><path id="bus" d="M18 45H90L120 24H580L610 45H682" fill="none" stroke="url(#r)" stroke-width="4"/>
+<circle r="8" fill="#fff" filter="url(#g)"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#bus"/></animateMotion><animate attributeName="fill" values="#ff3aad;#ffd83d;#55ff84;#3beeff;#8a55ff;#ff3aad" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="18" cy="45" r="10" fill="#0a1114" stroke="#a8d7d7"/><circle cx="682" cy="45" r="10" fill="#0a1114" stroke="#a8d7d7"/>
+<text x="350" y="61" text-anchor="middle" fill="#cfe5e5" font-family="monospace" font-size="10" letter-spacing="5">PHOTON BUS // LIVE</text>
+</svg>
