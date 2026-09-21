@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="170" viewBox="0 0 92 170">
+<defs>
+ <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#10272d"/><stop offset=".18" stop-color="#9ffcff" stop-opacity=".48"/><stop offset=".38" stop-color="#16383e"/><stop offset=".7" stop-color="#07161c"/><stop offset=".88" stop-color="#9dfcff" stop-opacity=".35"/><stop offset="1" stop-color="#13242b"/></linearGradient>
+ <linearGradient id="steel"><stop stop-color="#34464b"/><stop offset=".3" stop-color="#c5d8d8"/><stop offset=".55" stop-color="#52676b"/><stop offset=".8" stop-color="#d6eeee"/><stop offset="1" stop-color="#26363b"/></linearGradient>
+ <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="20" y="4" width="52" height="15" rx="4" fill="url(#steel)"/><rect x="20" y="151" width="52" height="15" rx="4" fill="url(#steel)"/>
+<rect x="27" y="16" width="38" height="138" rx="18" fill="url(#glass)" stroke="#9cfaff" stroke-opacity=".45"/>
+<path d="M34 27 Q42 20 49 27" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2"/><path d="M32 38V128" stroke="#d9ffff" stroke-opacity=".14" stroke-width="3"/>
+<circle cx="46" cy="32" r="8" fill="#2effd0" opacity=".22" filter="url(#glow)"><animate attributeName="cy" values="30;140;30" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="46" cy="32" r="4.5" fill="#66ffe1" filter="url(#glow)"><animate attributeName="cy" values="30;140;30" dur="3.2s" repeatCount="indefinite"/><animate attributeName="fill" values="#5dffe0;#40eaff;#ff4fc8;#ffd34a;#5dffe0" dur="3.2s" repeatCount="indefinite"/></circle>
+<ellipse cx="46" cy="85" rx="15" ry="5" fill="none" stroke="#d9ffff" stroke-opacity=".12"><animate attributeName="ry" values="3;7;3" dur="2.1s" repeatCount="indefinite"/></ellipse>
+</svg>
