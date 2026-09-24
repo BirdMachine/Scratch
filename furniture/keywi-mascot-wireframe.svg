@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="700" viewBox="0 0 420 700">
+<defs>
+  <linearGradient id="sine" x1="0" x2="1"><stop stop-color="#ff4dc4"/><stop offset=".2" stop-color="#ffb53e"/><stop offset=".4" stop-color="#eaf34d"/><stop offset=".6" stop-color="#56e89b"/><stop offset=".8" stop-color="#42dff0"/><stop offset="1" stop-color="#8b61ff"/></linearGradient>
+  <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity=".34"/><stop offset=".45" stop-color="#8deff3" stop-opacity=".10"/><stop offset="1" stop-color="#8f5dff" stop-opacity=".20"/></linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<!-- intentionally transparent canvas -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- hair mass -->
+  <path d="M118 126Q120 48 212 38Q306 42 320 128Q333 185 298 245Q275 285 265 330" stroke="#f7d6a7" stroke-width="22" opacity=".85"/>
+  <path d="M130 125Q94 170 115 244Q136 314 107 394" stroke="#f7d6a7" stroke-width="14" opacity=".7"/>
+  <!-- rainbow tips -->
+  <path d="M108 390Q118 435 98 470M140 330Q145 398 130 462M176 320Q183 390 170 462M220 314Q235 388 222 458M260 310Q280 370 284 448" stroke="url(#sine)" stroke-width="12"/>
+  <!-- head -->
+  <ellipse cx="214" cy="134" rx="66" ry="76" fill="#ffe7d0" fill-opacity=".12" stroke="#ffe8d9" stroke-width="3"/>
+  <!-- goggles -->
+  <ellipse cx="173" cy="74" rx="30" ry="15" fill="url(#glass)" stroke="url(#sine)" stroke-width="3"/>
+  <ellipse cx="246" cy="70" rx="32" ry="16" fill="url(#glass)" stroke="url(#sine)" stroke-width="3"/>
+  <path d="M201 72h16" stroke="#f5d84f" stroke-width="4"/>
+  <!-- face -->
+  <path d="M177 139q18 15 36 0M233 137q18 15 35 0" stroke="#49d9df" stroke-width="4"/>
+  <path d="M206 171q13 10 27 0" stroke="#ff6cbf" stroke-width="4"/>
+  <!-- body / cropped top -->
+  <path d="M162 216Q212 195 267 217L282 300Q215 324 146 300Z" fill="url(#glass)" stroke="#d9ffff" stroke-width="3"/>
+  <!-- jacket -->
+  <path d="M145 214Q99 232 83 298L110 386Q141 370 165 334L157 242" fill="#11131e" fill-opacity=".65" stroke="#8f6cff" stroke-width="3"/>
+  <path d="M272 216Q322 228 335 294L312 388Q282 370 255 334L263 242" fill="#11131e" fill-opacity=".65" stroke="#50e6d4" stroke-width="3"/>
+  <!-- shorts/belt -->
+  <path d="M148 305Q210 330 278 305L286 378Q220 397 140 378Z" fill="#0e1118" fill-opacity=".78" stroke="#f8dc4b" stroke-width="3"/>
+  <path d="M143 323h140" stroke="url(#sine)" stroke-width="5"/>
+  <!-- legs -->
+  <path d="M173 377Q160 474 170 601M249 377Q267 476 253 602" stroke="#ffe7d0" stroke-width="28" opacity=".28"/>
+  <!-- boots -->
+  <path d="M145 595Q176 574 207 606L200 648Q158 660 130 635Z" fill="#11131e" stroke="url(#sine)" stroke-width="4"/>
+  <path d="M228 606Q259 575 293 599L305 635Q267 661 222 648Z" fill="#11131e" stroke="url(#sine)" stroke-width="4"/>
+  <!-- keycap -->
+  <g transform="translate(274 265) rotate(-10)">
+    <rect x="0" y="0" width="82" height="82" rx="18" fill="url(#glass)" stroke="url(#sine)" stroke-width="4"/>
+    <path d="M41 17l7 17 18 7-18 7-7 17-7-17-18-7 18-7z" fill="#fff" opacity=".9"/>
+  </g>
+  <!-- kiwi/calibration flower -->
+  <circle cx="131" cy="79" r="20" fill="#b7e64e" fill-opacity=".45" stroke="#d8f46c" stroke-width="3"/>
+  <circle cx="131" cy="79" r="7" fill="#171717"/>
+  <g stroke="#7d4e23" stroke-width="2"><path d="M131 59v40M111 79h40M117 65l28 28M145 65l-28 28"/></g>
+</g>
+<g font-family="monospace" fill="#b7c6d2" text-anchor="middle">
+  <text x="210" y="675" font-size="11" letter-spacing="3">KEYWI // TRANSPARENT MASCOT STAND-IN</text>
+</g>
+</svg>
