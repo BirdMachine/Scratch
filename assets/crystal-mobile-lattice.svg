@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="230" viewBox="0 0 960 230">
+<defs>
+<linearGradient id="line"><stop stop-color="#7deaff" stop-opacity=".08"/><stop offset=".28" stop-color="#a8edff"/><stop offset=".5" stop-color="#fff"/><stop offset=".72" stop-color="#ffb8e8"/><stop offset="1" stop-color="#ffd999" stop-opacity=".08"/></linearGradient>
+<radialGradient id="gem"><stop stop-color="#fff"/><stop offset=".25" stop-color="#b9f5ff"/><stop offset=".52" stop-color="#c7b8ff"/><stop offset=".75" stop-color="#ffb9e2"/><stop offset="1" stop-color="#ffd99e" stop-opacity=".2"/></radialGradient>
+<filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="960" height="230" rx="18" fill="#0b111d"/>
+<g stroke="url(#line)" fill="none" stroke-width="1.5">
+<path d="M55 115H275L310 80h95L480 25l75 55h95l35 35h220"/>
+<path d="M55 115H275L310 150h95L480 205l75-55h95l35-35h220"/>
+<path d="M480 25V205M310 80L480 115 650 80M310 150L480 115 650 150"/>
+</g>
+<g filter="url(#g)" fill="url(#gem)" stroke="#fff">
+<path d="M480 35l58 80-58 80-58-80z" opacity=".75"/>
+<path d="M480 67l48 48-48 48-48-48z" opacity=".7"/>
+<path d="M310 70l10 10-10 10-10-10z"/><path d="M650 70l10 10-10 10-10-10z"/>
+<path d="M275 107l8 8-8 8-8-8z"/><path d="M685 107l8 8-8 8-8-8z"/>
+<path d="M105 107l8 8-8 8-8-8z"/><path d="M855 107l8 8-8 8-8-8z"/>
+</g>
+<g fill="#fff" filter="url(#g)"><path d="M205 55l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/><path d="M755 48l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/></g>
+</svg>
