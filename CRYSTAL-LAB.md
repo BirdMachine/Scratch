@@ -1,141 +1,112 @@
-<p align="center">
-  <img src="./assets/crystal-hero.svg" width="100%" alt="Iridescent Keywi crystal">
-</p>
+<p align="center"><img src="./assets/crystal-glow-hero.svg" width="100%" alt="Glowing iridescent crystal"></p>
 
 <div align="center">
 
-# ⟡◇⟡ KEYWI // CRYSTAL LAB ⟡◇⟡
+# ✧　C R Y S T A L　L A B　✧
 
 **a GitHub-rendered specimen in iceglass, opal light & tiny bad decisions**
 
-```text
-                 ✧
-             ⋆   │   ⋆
-          ⟡──────◇──────⟡
-        ✦╲       │       ╱✦
-      ◇───╲──────◇──────╱───◇
-        ✧  ╲    ╱ ╲    ╱  ✧
-            ◇──◇   ◇──◇
-              ╲│   │╱
-               ⟡   ⟡
-                ╲ ╱
-                 ◇
-                 │
-                 ✦
-```
-
-FACETED　·　PRISMATIC　·　TRANSLUCENT　·　BIRD-ENGINEERED
+`FACETED`　✦　`PRISMATIC`　◇　`TRANSLUCENT`　⟡　`BIRD-ENGINEERED`
 
 </div>
 
-<p align="center"><img src="./assets/crystal-divider.svg" width="92%" alt=""></p>
+<p align="center"><img src="./assets/crystal-glow-divider.svg" width="100%" alt=""></p>
 
 > [!NOTE]
-> **DESIGN SIGNAL //** Keep the geometry sharp and the palette soft: mostly white glass, glacial cyan and periwinkle, with tiny spectral flashes of peach, pink and gold.
+> ### ✦ DESIGN SIGNAL ───────────── ◇ ⟡ ✧
+> Keep the geometry sharp and the palette soft: **white glass · glacial cyan · periwinkle · blush · tiny gold flare.**  
+> The glow belongs on the edges, intersections and little impossible points of light.
 
 <table>
 <tr>
-<td width="33%" align="center"><h3>⟡◇⟡ CUT ⟡◇⟡</h3><b>octahedral / gem-cut</b><br><br>Crisp enough to survive<br>a 48 px launcher icon.<br><br>◇╱⟡╲◇</td>
-<td width="33%" align="center"><h3>✦⋆✧ LIGHT ✧⋆✦</h3><b>opalescent / refractive</b><br><br>Color lives <i>inside</i> the glass,<br>not as a loud flat fill.<br><br>✧ ── ✦ ── ✧</td>
-<td width="33%" align="center"><h3>◇⟡◇ SURFACE ◇⟡◇</h3><b>clear / adaptive</b><br><br>Designed to float cleanly over<br>light, dark & chromatic UI.<br><br>⟡╲◇╱⟡</td>
+<td align="center" width="16%">◇<br><b>ICE</b><br><sub>white glass</sub></td>
+<td align="center" width="16%">⟡<br><b>CYAN</b><br><sub>cold light</sub></td>
+<td align="center" width="16%">✧<br><b>PERIWINKLE</b><br><sub>soft prism</sub></td>
+<td align="center" width="16%">◇<br><b>PEACH</b><br><sub>warm facet</sub></td>
+<td align="center" width="16%">✦<br><b>PINK</b><br><sub>spectral flash</sub></td>
+<td align="center" width="16%">⋆<br><b>GOLD</b><br><sub>edge spark</sub></td>
 </tr>
 </table>
+
+<p align="center"><img src="./assets/crystal-glow-divider.svg" width="94%" alt=""></p>
+
+## ✧　C R Y S T A L　T E L E M E T R Y　──────── ◇⟡✧
+
+| CHANNEL | TREATMENT | INTENSITY |
+|:--|:--|:--|
+| ❄️ **ice** | white → powder blue → cyan | ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ · · |
+| 🪻 **violet** | periwinkle → soft lavender | ⟡ ⟡ ⟡ ⟡ ⟡ · · · · · |
+| 🌸 **spectral** | blush / peach / tiny gold flare | ✦ ✦ ✦ · · · · · · · |
+| 💎 **glass** | transparency / highlight / refraction | ◇ ⟡ ◇ ⟡ ◇ ⟡ ◇ ⟡ ◇ ⟡ |
+| ✧ **glint** | microscopic points of impossible light | ✧ · · ✧ · · · ✧ · · |
 
 <div align="center">
 
 ```text
-✧───────────────⟡◇⟡───────────────✧
-                 │
-           ✦─────◇─────✦
-                 │
-✧───────────────⟡◇⟡───────────────✧
+                         ✧
+                         │
+       ⋆──────◇─────────⟡◇⟡─────────◇──────⋆
+              ╲        ╱ │ ╲        ╱
+               ✦──────◇──✧──◇──────✦
+              ╱        ╲ │ ╱        ╲
+       ⋆──────◇─────────⟡◇⟡─────────◇──────⋆
+                         │
+                         ✧
 ```
 
 </div>
 
-## ✧ Crystal telemetry
+<table>
+<tr>
+<td width="25%" align="center"><h3>◇ TRANSPARENT</h3>layered refraction<br><sub>partial opacity<br>works anywhere</sub><br><br>✧╱◇╲✧</td>
+<td width="25%" align="center"><h3>⟡ GEOMETRIC</h3>clean facets<br><sub>crisp silhouette<br>infinitely adaptable</sub><br><br>◇─⟡─◇</td>
+<td width="25%" align="center"><h3>✦ SHINY</h3>subtle glints<br><sub>spectral highlights<br>tasteful bloom</sub><br><br>⋆✦✧✦⋆</td>
+<td width="25%" align="center"><h3>✧ FLEXIBLE</h3>light or dark<br><sub>tiny or huge<br>still looks good</sub><br><br>⟡◇⟡</td>
+</tr>
+</table>
 
-| channel | treatment | intensity |
-|:--|:--|:--:|
-| ❄️ **ice** | white → powder blue → cyan | ◇◇◇◇◇◇◇◇·· |
-| 🪻 **violet** | periwinkle → soft lavender | ⟡⟡⟡⟡⟡····· |
-| 🌸 **spectral** | blush / peach / tiny gold flare | ✦✦✦······· |
-| 💎 **glass** | transparency, highlight, refraction | ◇⟡◇⟡◇⟡◇⟡◇⟡ |
-| 💥 **neon** | reserved for microscopic edge sparks | ✧········· |
-
-> [!TIP]
-> The fun bit is restraint. The earlier Scratch page proved GitHub Markdown can become a Lisa-Frank reactor. This one asks what happens when the same bag of tricks gets art-directed — including making the typography do some actual structural work.
+<p align="center"><img src="./assets/crystal-glow-divider.svg" width="100%" alt=""></p>
 
 <details>
-<summary><b>⟡ crack open the crystal ⟡</b></summary>
-
-<br>
+<summary><b>◇　OPEN REFRACTION CHAMBER　◇</b></summary>
 
 <div align="center">
 
-### 𝙸𝙽𝚃𝙴𝚁𝙽𝙰𝙻　𝚁𝙴𝙵𝚁𝙰𝙲𝚃𝙸𝙾𝙽
+### ✧ INTERNAL OPTICS ✧
 
 ```text
-                    ✧
-               ⋆    │    ⋆
-          ✦─────────◇─────────✦
-             ╲      │      ╱
-        ⟡─────◇─────⟡─────◇─────⟡
-          ╲    ╲   ╱ ╲   ╱    ╱
-           ◇────◇─◇   ◇─◇────◇
-             ╲   ╲│   │╱   ╱
-              ✧   ⟡───⟡   ✧
-                    ╲ ╱
-                     ◇
-                     │
-                     ✦
+                  ⋆       ✧       ⋆
+                   ╲      │      ╱
+             ◇──────⟡────◇────⟡──────◇
+               ╲     ╲   │   ╱     ╱
+                ✦─────◇──✧──◇─────✦
+               ╱     ╱   │   ╲     ╲
+             ◇──────⟡────◇────⟡──────◇
+                   ╱      │      ╲
+                  ⋆       ✧       ⋆
 ```
 
-**white light goes in → weird keyboard energy comes out**
+**WHITE LIGHT IN　→　WEIRD KEYBOARD ENERGY OUT**
 
-⟡ kaomoji　✧ unicode　◇ tools　⋆ chroma　✦ mischief
+`kaomoji`　✧　`unicode`　◇　`tools`　⟡　`chroma`　✦　`mischief`
 
 </div>
 </details>
 
-<p align="center"><img src="./assets/crystal-divider.svg" width="92%" alt=""></p>
-
-## ⟡ Gem-cut interface language
-
-<table>
-<tr><td><b>◇ Primary planes ◇</b><br>large, quiet, almost-white facets</td><td><b>⟡ Edge planes ⟡</b><br>icy blue / violet contrast for silhouette</td></tr>
-<tr><td><b>✦ Refraction ✦</b><br>small rainbow incursions rather than full-spectrum fill</td><td><b>✧ Motion ✧</b><br>slow glint, parallax or spectral sweep — never casino sparkle</td></tr>
-</table>
-
-<div align="center">
-
-```text
-      ✧       ⋆       ✧
-       ╲      │      ╱
-        ⟡─────◇─────⟡
-         ╲    │    ╱
-          ◇───✦───◇
-         ╱    │    ╲
-        ⟡─────◇─────⟡
-       ╱      │      ╲
-      ✧       ⋆       ✧
-```
-
-</div>
-
 > [!IMPORTANT]
-> **Icon rule:** it still has to read as a cut gem when the refraction disappears. Geometry first; chroma second.
+> **◇ GEOMETRY FIRST // GLOW SECOND.**  
+> If every luminous effect vanished, the page should still read as a cut gem.
 
 <div align="center">
 
-### ✧──⟡◇⟡──✦──⟡◇⟡──✧
+### ✧────◇────⟡◇⟡────✦────⟡◇⟡────◇────✧
 
-**KEYWI**
+# KEYWI
 
 *cut weirdly · type beautifully*
 
-<sub>GitHub Markdown, but somebody finally took the energy drink away from it.</sub>
+<sub>GitHub Markdown, now with approximately 340% more refractive index.</sub>
 
-⟡　◇　⟡　✦　⋆　✧　⋆　✦　⟡　◇　⟡
+✧　⋆　◇　⟡　✦　⟡　◇　⋆　✧
 
 </div>
