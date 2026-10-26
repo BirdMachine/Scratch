@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-label="Animated underwater terrarium with a floating betta fish, plants and bubbles">
+<defs><linearGradient id="sea" x2="0" y2="1"><stop stop-color="#10234d"/><stop offset=".56" stop-color="#086281"/><stop offset="1" stop-color="#032d50"/></linearGradient><linearGradient id="tail" x2="1" y2="1"><stop stop-color="#9b67ff"/><stop offset=".5" stop-color="#ff63b9"/><stop offset="1" stop-color="#ffb9ec"/></linearGradient><linearGradient id="body"><stop stop-color="#ffb2dd"/><stop offset="1" stop-color="#7559f7"/></linearGradient></defs>
+<rect width="960" height="380" rx="26" fill="url(#sea)"/>
+<g stroke="#a4ffff" stroke-opacity=".14" fill="none"><path d="M30 30H930V350H30Z"/><path d="M30 92H930M30 161H930M30 230H930"/></g>
+<path d="M0 325 Q130 295 260 324 T520 320 T960 313V380H0Z" fill="#0b3752"/>
+<g stroke-linecap="round" fill="none"><path d="M110 350Q68 280 108 222" stroke="#61d5a2" stroke-width="9"/><path d="M145 350Q177 292 158 249" stroke="#9dfec6" stroke-width="7"/><path d="M777 350Q729 280 754 200" stroke="#55cba8" stroke-width="10"/><path d="M806 350Q850 292 816 236" stroke="#89ffd1" stroke-width="8"/></g>
+<g fill="#bcf7ff" opacity=".58"><circle cx="120" cy="280" r="5"><animate attributeName="cy" values="330;0;330" dur="8s" repeatCount="indefinite"/></circle><circle cx="215" cy="210" r="3"><animate attributeName="cy" values="350;5;350" dur="6.5s" repeatCount="indefinite"/></circle><circle cx="700" cy="310" r="7"><animate attributeName="cy" values="340;0;340" dur="11s" repeatCount="indefinite"/></circle><circle cx="830" cy="150" r="4"><animate attributeName="cy" values="330;0;330" dur="9s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(490 188)"><animateTransform attributeName="transform" type="translate" values="470 190;555 160;470 190;400 210;470 190" dur="17s" repeatCount="indefinite"/>
+<path d="M-40 0Q-135 -106 -155 -79Q-132 -13 -158 62Q-114 103 -36 22Z" fill="url(#tail)" opacity=".92"><animate attributeName="d" values="M-40 0Q-135 -106 -155 -79Q-132 -13 -158 62Q-114 103 -36 22Z;M-40 0Q-154 -92 -171 -44Q-109 -15 -170 90Q-96 76 -36 22Z;M-40 0Q-135 -106 -155 -79Q-132 -13 -158 62Q-114 103 -36 22Z" dur="3s" repeatCount="indefinite"/></path>
+<path d="M-27 -19Q-29 -76 34 -85L55 -35M-26 18Q-60 93 41 82L52 27" stroke="#f9baff" stroke-width="3" fill="url(#tail)" opacity=".7"/>
+<path d="M-68 0Q-30 -42 36 -34Q93 -21 108 2Q85 37 31 38Q-35 38 -68 0Z" fill="url(#body)" stroke="#ffceeb" stroke-width="2"/>
+<circle cx="77" cy="-10" r="7" fill="#14122b"/><circle cx="79" cy="-12" r="2.7" fill="white"/><path d="M105 3l13 -2" stroke="#ffe4f5" stroke-width="3"/><path d="M-12 18Q-10 65 31 52" fill="#e978ed" opacity=".65"/></g>
+<text x="40" y="55" font-family="monospace" fill="#b6ffff" font-size="15" letter-spacing="3">SPECIMEN 02 // TINY PERSISTENT WORLD</text>
+<text x="40" y="318" font-family="monospace" fill="#ffffff" font-size="23">THE BIRD MACHINE AQUARIUM</text>
+<text x="40" y="340" font-family="monospace" fill="#bfece8" font-size="12">THIS FISH IS ANIMATED • FEEDING VIA ISSUE/ACTIONS IS A FUTURE PHASE</text>
+<rect x="17" y="17" width="926" height="346" rx="17" stroke="#b7ffff" stroke-opacity=".33" fill="none"/>
+</svg>
