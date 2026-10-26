@@ -1,7 +1,6 @@
 name: "🐟 Aquarium interaction"
 description: "Leave a tiny mark on the README aquarium (after experiment is merged)."
 title: "[Aquarium] "
-labels: ["aquarium"]
 body:
   - type: markdown
     attributes:
