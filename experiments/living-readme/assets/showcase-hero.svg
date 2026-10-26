@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-label="BirdMachine Living README neon glass laboratory — aquarium, prism, and mini desktop">
+<defs>
+<linearGradient id="back" x2="1" y2="1"><stop stop-color="#080b24"/><stop offset=".46" stop-color="#24214c"/><stop offset="1" stop-color="#061f35"/></linearGradient>
+<linearGradient id="gem" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#85ffee"/><stop offset=".25" stop-color="#a9acff"/><stop offset=".55" stop-color="#ffd2f7"/><stop offset=".8" stop-color="#ff88bb"/><stop offset="1" stop-color="#79f2ff"/></linearGradient>
+<linearGradient id="glass" x2="1" y2="1"><stop stop-color="#d8ffff" stop-opacity=".28"/><stop offset=".5" stop-color="#bd9bff" stop-opacity=".11"/><stop offset="1" stop-color="#ff95d1" stop-opacity=".2"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#e962fc" stop-opacity=".35"/><stop offset="1" stop-color="#542eff" stop-opacity="0"/></radialGradient>
+<pattern id="pixels" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#b4ecff" stroke-opacity=".08" fill="none"/></pattern>
+<filter id="fog"><feGaussianBlur stdDeviation="19"/></filter>
+</defs>
+<rect width="1100" height="360" rx="22" fill="url(#back)"/><rect width="1100" height="360" rx="22" fill="url(#pixels)"/>
+<ellipse cx="814" cy="171" rx="250" ry="162" fill="url(#halo)" filter="url(#fog)"/>
+<g opacity=".35" fill="none" stroke-width="2"><path d="M0 314Q275 240 550 314T1100 314" stroke="#f99fff"/><path d="M0 333Q275 260 550 333T1100 333" stroke="#7dfaf9"/></g>
+<g transform="translate(865 160)">
+<path d="M0 -112 133 -8 0 125 -133 -8Z" fill="url(#gem)" fill-opacity=".13" stroke="url(#gem)" stroke-width="3"/>
+<path d="M0 -112 0 125M-133 -8H133M-133 -8 0 47 133 -8" fill="none" stroke="#e6fdff" stroke-opacity=".65" stroke-width="2"/>
+<path d="M0 -112 133 -8 0 47 -133 -8Z" fill="url(#glass)"/>
+<path d="M-133 -8 0 47 0 125Z" fill="#fc7ee5" opacity=".22"/>
+<path d="M133 -8 0 47 0 125Z" fill="#76f4ff" opacity=".17"/>
+<animateTransform attributeName="transform" type="translate" values="865 157;865 167;865 157" dur="5s" repeatCount="indefinite"/>
+</g>
+<g fill="none" stroke="#b2feff" opacity=".5"><ellipse cx="865" cy="161" rx="198" ry="45" transform="rotate(-18 865 161)"/><ellipse cx="865" cy="161" rx="212" ry="63" transform="rotate(21 865 161)"/></g>
+<g font-family="monospace"><text x="45" y="47" font-size="15" letter-spacing="4" fill="#95fce9">BIRDMACHINE // EXPERIMENTAL INTERFACE DIVISION</text>
+<text x="44" y="125" font-size="49" font-weight="700" letter-spacing="-1.5" fill="#fff5ff">LIVING README</text><text x="47" y="168" font-size="24" fill="#eaa6ff">a tiny impossible operating system</text>
+<text x="48" y="220" font-size="17" fill="#b9e9ff">REFRACTIVE OPTICS  /  MICRO AQUARIUM  /  CYBER DESKTOP</text>
+<text x="48" y="302" font-size="13" letter-spacing="2" fill="#a2ffe7">◈ GITHUB MARKDOWN · SVG · DECLARATIVE MOTION · GITHUB ACTIONS</text>
+</g>
+<rect x="26" y="22" width="1048" height="315" rx="15" fill="none" stroke="#99d8ff" stroke-opacity=".35"/>
+<g stroke="#fff" stroke-width="1.6" opacity=".6"><path d="M664 83h16m-8-8v16M1040 254h18m-9-9v18"/></g>
+</svg>
