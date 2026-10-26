@@ -1,6 +1,9 @@
 # 🌈 README CHROMATIC VIOLENCE LAB ✨
 
 > A practical specimen sheet for discovering exactly how **unreasonably loud** a GitHub-rendered README can become without custom CSS.
+> [!TIP]
+> 🧪 **NEW EXPERIMENT WING:** [Living README Trilogy — holographic glass, fish terrarium & faux desktop](./experiments/living-readme/README.md) · three custom SVG scenes with a Markdown-powered gallery.
+
 
 GitHub Markdown keeps arbitrary styling on a short leash, so our weapons are **emoji, Unicode, badges, SVG/image assets, tables, `<picture>`, `<details>`, limited HTML, and animation**. 😈
 
