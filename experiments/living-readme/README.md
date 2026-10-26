@@ -41,9 +41,11 @@ Our aquarium lives entirely inside one SVG. The betta glides, its tail deforms, 
 <details>
 <summary>🐟 Open the fishkeeper's notebook</summary>
 
-**Future optional phase**: a GitHub Issue Form could accept `feed`, `decorate`, or `lights` commands; an Action could validate the command, update a JSON habitat state and regenerate an SVG. Avoid triggering workflows from untrusted issue text without validation and minimal permissions.
+**Experimental persistent controls are now implemented on this branch**: a constrained [GitHub Issue Form](../../.github/ISSUE_TEMPLATE/aquarium.yml) and [GitHub Actions workflow](../../.github/workflows/aquarium.yml) can accept three fixed actions: feed the betta, moonlight, or daylight. A standard-library [Python renderer](./update_aquarium.py) regenerates a state HUD on the SVG and saves the JSON aquarium state. User text is never copied into the SVG, and the script does not execute user-provided code.
 
-**Today:** This version is a looping animation, not an interactable pet.
+**Activation caveat:** `issues` workflows and issue templates must exist on the default branch to work. Until this draft PR is merged, the aquarium remains a non-interactive animation. After merge, use [the new issue chooser](../../issues/new/choose) to feed the fish or change lights. Branch-protection rules, Actions policy, and workflow permissions may still prevent the automated commit; test in a live issue.
+
+**Security caveat:** all public issue authors can trigger the finite preset actions. The script accepts only the three enumerated choices. Public issues can still generate workflow runs, so rate limits or authorization can be added if needed.
 
 [Inspect the terrarium SVG](./assets/readme-terrarium.svg)
 
