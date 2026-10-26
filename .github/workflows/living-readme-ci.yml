@@ -1,0 +1,31 @@
+name: Living README validation
+on:
+  pull_request:
+    paths:
+      - 'experiments/living-readme/**'
+      - '.github/workflows/living-readme-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Python syntax
+        run: python3 -m compileall -q experiments/living-readme
+      - name: Validate all SVG files as XML
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+          files = sorted(Path("experiments/living-readme/assets").glob("*.svg"))
+          assert len(files) >= 4, "Expected all four SVG assets"
+          for f in files:
+              ElementTree.parse(f)
+              print("✓", f)
+          PY
+      - name: Exercise visitor input, state transitions and rendering
+        run: python3 -m unittest discover -s experiments/living-readme -p 'test_*.py' -v
