@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-label="Animated holographic prism with drifting iridescent light">
+<defs><linearGradient id="night" x2="1" y2="1"><stop stop-color="#090b24"/><stop offset=".5" stop-color="#25124d"/><stop offset="1" stop-color="#081d36"/></linearGradient>
+<linearGradient id="prism" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#89fcff"/><stop offset=".28" stop-color="#f5a7ff"/><stop offset=".5" stop-color="#fff5bb"/><stop offset=".75" stop-color="#8f98ff"/><stop offset="1" stop-color="#ff5cad"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#f567ff" stop-opacity=".7"/><stop offset="1" stop-color="#f567ff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" stroke="#90ebff" stroke-opacity=".12" fill="none"/></pattern>
+<filter id="blur"><feGaussianBlur stdDeviation="21"/></filter>
+</defs>
+<rect width="960" height="380" rx="26" fill="url(#night)"/><rect width="960" height="380" rx="26" fill="url(#grid)"/>
+<ellipse cx="480" cy="180" rx="280" ry="175" fill="url(#glow)" filter="url(#blur)"><animate attributeName="opacity" values=".5;1;.5" dur="7s" repeatCount="indefinite"/></ellipse>
+<g opacity=".35" stroke="#ff9af5" fill="none"><path d="M0 302 Q240 130 480 302 T960 302"><animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 302 Q240 130 480 302 T960 302;M0 302 Q240 335 480 170 T960 302;M0 302 Q240 130 480 302 T960 302"/></path><path d="M0 323 Q240 151 480 323 T960 323" stroke="#65eaff"/></g>
+<g transform="translate(480 167)"><animateTransform attributeName="transform" type="translate" values="480 158;480 175;480 158" dur="6s" repeatCount="indefinite" additive="replace"/>
+<path d="M0 -118 145 0 0 118 -145 0Z" fill="url(#prism)" fill-opacity=".18" stroke="url(#prism)" stroke-width="3"/>
+<path d="M0 -118V118M-145 0H145M0 -118 0 30 145 0M0 30-145 0" stroke="#c7faff" stroke-opacity=".65" fill="none"/>
+<path d="M0 -118 145 0 0 30 -145 0Z" fill="#bafcff" opacity=".15"/>
+<path d="M0 30 145 0 0 118 -145 0Z" fill="#ff67ca" opacity=".18"/>
+<g stroke="#fff" opacity=".75"><path d="M-174 -86h22m-11 -11v22M160 84h24m-12 -12v24"/></g>
+<animate attributeName="opacity" values=".78;1;.78" dur="4s" repeatCount="indefinite"/></g>
+<text x="34" y="46" font-family="monospace" font-size="15" letter-spacing="3" fill="#89fbff">SPECIMEN 01 // CHROMATIC REFRACTION</text>
+<text x="34" y="339" font-family="monospace" font-size="22" fill="#fff5ff">HOLOGRAPHIC GLASS ENGINE</text>
+<text x="34" y="359" font-family="monospace" font-size="11" fill="#b8c8e8">NO SCRIPT • SVG GRADIENTS • SMIL MOTION</text>
+<rect x="17" y="17" width="926" height="346" rx="17" fill="none" stroke="#b8f8ff" stroke-opacity=".3"/>
+</svg>
