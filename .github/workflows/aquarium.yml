@@ -6,7 +6,7 @@ permissions:
   contents: read
 jobs:
   update:
-    if: ${{ startsWith(github.event.issue.title, '[Aquarium]') && contains(github.event.issue.labels.*.name, 'aquarium') }}
+    if: ${{ startsWith(github.event.issue.title, '[Aquarium]') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
