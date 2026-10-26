@@ -36,8 +36,6 @@ def update(event, state):
     title = issue.get("title") or ""
     if not title.startswith("[Aquarium]") or event.get("action") != "opened":
         return False
-    if any(label.get("name") == "aquarium" for label in issue.get("labels", []) if isinstance(label, dict)) is False:
-        return False
     number = issue.get("number")
     if not isinstance(number, int) or number <= int(state.get("last_issue", 0)):
         return False
