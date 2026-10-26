@@ -67,8 +67,8 @@ def render(svg, state):
         end = svg.find(CLOSE, start)
         if end < 0:
             raise ValueError("Unterminated state region")
-        svg = svg[:start] + svg[end + len(CLOSE):]
-    svg = svg.replace("</svg>", snippet + "\n</svg>")
+        svg = svg[:start].rstrip() + svg[end + len(CLOSE):]
+    svg = svg.replace("</svg>", "\n" + snippet + "\n</svg>")
     ET.fromstring(svg)  # fail closed if rendering breaks XML
     return svg
 
