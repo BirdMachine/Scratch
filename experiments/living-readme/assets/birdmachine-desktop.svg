@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Faux translucent desktop with project explorer, aquarium window, terminal and animated status lights">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#2c144d"/><stop offset=".53" stop-color="#0c3a65"/><stop offset="1" stop-color="#562f72"/></linearGradient><linearGradient id="panel" x2="1" y2="1"><stop stop-color="#9edbff" stop-opacity=".24"/><stop offset="1" stop-color="#ff9ffb" stop-opacity=".1"/></linearGradient><pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="16" cy="16" r="1" fill="#c5e8ff" opacity=".25"/></pattern></defs>
+<rect width="960" height="420" rx="26" fill="url(#bg)"/><rect width="960" height="420" rx="26" fill="url(#dots)"/>
+<path d="M-40 310Q240 20 560 230T1040 55" stroke="#fca8fc" stroke-width="70" opacity=".09" fill="none"/>
+<rect x="28" y="23" width="904" height="39" rx="13" fill="#090e2c" fill-opacity=".75" stroke="#b5caff" stroke-opacity=".4"/>
+<text x="49" y="47" font-size="16" font-family="monospace" fill="#e5efff">◈  BIRDMACHINE OS  /  scratch://experiments</text>
+<text x="771" y="47" font-size="13" font-family="monospace" fill="#a3ffe4">● ONLINE</text><circle cx="764" cy="42" r="4" fill="#a3ffe4"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>
+<rect x="43" y="83" width="350" height="263" rx="16" fill="url(#panel)" stroke="#b9e6ff" stroke-opacity=".75"/>
+<rect x="43" y="83" width="350" height="39" rx="16" fill="#d7bcff" fill-opacity=".22"/>
+<text x="61" y="109" font-family="monospace" fill="#fff" font-size="16">▦  PROJECT EXPLORER</text>
+<g font-family="monospace" font-size="16" fill="#d6f1ff"><text x="65" y="156">▸  01 / prism.glass</text><text x="65" y="195">▸  02 / aquarium.world</text><text x="65" y="234">▸  03 / desktop.shell</text><text x="65" y="277" fill="#ffbde7">✧  NEW EXPERIMENT</text></g>
+<rect x="419" y="83" width="499" height="163" rx="16" fill="url(#panel)" stroke="#ffc1ff" stroke-opacity=".7"/>
+<rect x="419" y="83" width="499" height="33" rx="16" fill="#ffd1ed" fill-opacity=".22"/><text x="437" y="106" font-size="15" font-family="monospace" fill="#fff">◉  SYSTEM MONITOR</text>
+<text x="446" y="150" font-size="16" font-family="monospace" fill="#a0ffed">CHROMATIC CORE    [██████████] 100%</text>
+<text x="446" y="180" font-size="16" font-family="monospace" fill="#ffbfe8">GOOD TASTE        [░░░░░░░░░░]   0%</text>
+<text x="446" y="211" font-size="15" font-family="monospace" fill="#edf4ff">RENDER ENGINE: GITHUB MARKDOWN</text>
+<rect x="419" y="262" width="499" height="84" rx="15" fill="#08142c" fill-opacity=".73" stroke="#9dffda" stroke-opacity=".55"/>
+<text x="438" y="287" font-size="14" font-family="monospace" fill="#7efbca">bird@machine:~$ open /readme/chaos</text>
+<text x="438" y="315" font-size="14" font-family="monospace" fill="#f0ddff">READY FOR UNREASONABLE EXPERIMENTS_</text>
+<rect x="27" y="366" width="906" height="35" rx="12" fill="#060b1c" fill-opacity=".74"/>
+<text x="45" y="389" font-size="14" font-family="monospace" fill="#d6e4ff">◇  SCRATCH  │  PRISM  │  HABITAT  │  CONSOLE</text>
+<text x="786" y="389" font-size="12" font-family="monospace" fill="#b5ffe9">NO JS • ALL VIBES</text>
+</svg>
