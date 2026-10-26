@@ -1,0 +1,20 @@
+name: "🐟 Aquarium interaction"
+description: "Leave a tiny mark on the README aquarium (after experiment is merged)."
+title: "[Aquarium] "
+labels: ["aquarium"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🐟 Choose an action. The aquarium's **state is public**, changes are handled by a restricted GitHub Action, and all inputs are treated as untrusted. Please do not include personal information.
+  - type: dropdown
+    id: action
+    attributes:
+      label: Action
+      description: What should happen in the aquarium?
+      options:
+        - Feed the betta
+        - Turn on moonlight
+        - Turn on daylight
+    validations:
+      required: true
