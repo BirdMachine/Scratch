@@ -1,0 +1,30 @@
+name: Aquarium — update living README
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: read
+jobs:
+  update:
+    if: ${{ startsWith(github.event.issue.title, '[Aquarium]') && contains(github.event.issue.labels.*.name, 'aquarium') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: aquarium-state
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate input and render state
+        run: python3 experiments/living-readme/update_aquarium.py
+      - name: Commit changed aquarium
+        run: |
+          git add experiments/living-readme/aquarium-state.json experiments/living-readme/assets/readme-terrarium.svg
+          if git diff --cached --quiet; then
+            echo "No permitted state change"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "aquarium: apply permitted visitor action"
+          git push
